@@ -1,3 +1,5 @@
+matplotlib
+numpy
 streamlit>=1.20.0
 matplotlib>=3.5.0
 numpy>=1.21.0
