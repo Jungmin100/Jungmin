@@ -1,2 +1,4 @@
 folium
 streamlit_folium
+streamlit matplotlib numpy
+streamlit run physics_simulator.py
