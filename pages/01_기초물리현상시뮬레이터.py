@@ -1,3 +1,4 @@
+pip install -r requirements.txt
 import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -96,4 +97,3 @@ elif sim_type == "피스톤 운동":
     ani = animation.FuncAnimation(fig, update, frames=frames, interval=1000/fps, blit=True)
 
 st.pyplot(fig)
-pip install -r requirements.txt
